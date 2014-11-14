@@ -9,7 +9,7 @@ using namespace std;
 	string namestr[namesize];
 
 int main(int argc, char** argv) {	
-	ifstream fin0("E://TDDOWNLOAD//fugailv//20140919//duowan_100w_alpha_sorted.txt");	//name////////////////
+	ifstream fin0("E://TDDOWNLOAD//fugailv//20140919//name_pinyin_with_duowan100w_deleted.txt");	//name////////////////
 	if(!fin0){
 		cerr << "open failed" << endl;
 		return -1;
